@@ -7,7 +7,7 @@ namespace GameOfLife
     public class Cell
     {
         public bool IsAlive { get; set; }
-        private int numberOfTurnAlive = 0;
+        //private int numberOfTurnAlive = 0;
 
         public Cell(bool isAlive)
         {
